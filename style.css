@@ -56,3 +56,20 @@ html, body{
     height: 120%;
     background-color: #1A1A1A;
 }
+#nav{
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#nav h2{
+    font-size: 30px;
+    font-family: "Abril Fatface", serif;
+}
+#nav i{
+    font-size: 40px;
+}
