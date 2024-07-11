@@ -189,61 +189,154 @@ html, body{
 #section3{
     top: 100;
     width: 100%;
-    height: 130%;
+    height: 150%;
     background-color: #fafafa;
     border-top: .3px solid rgba(0, 0, 0, 0.144);
     padding: 120px 100px;
 }
-#sec2lo{
+#sec3lo{
     width: 100%;
     height: 100%;
 }
 #toptxt{
     width: 100%;
     height: 30%;
-    background-color: red;
-    padding: 0 20%;
+    padding: 0 15%;
 }
-#sec2txt{
+#sec3txt{
     width: 100%;
     height: 100%;
-    background-color: #65C0BA;
+    text-align: center;
 }
+#sec3txt h1{
+    font-family: "Abril Fatface", serif;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+#sec3txt p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 20px;
+    color: #0000005b;
+}
+
 #iconlist{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
     height: 70%;
-    background-color: purple;
 }
 #icon1{
     width: 30%;
     height: 50%;
-    background-color: aquamarine;
+    text-align: center;
+}
+#icon1 i{
+    font-size: 50px;
+    color: #000000a8;
+}
+#icon1 h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+}
+#icon1 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 20px;
+    color: #0000005b;
+    font-weight: 300;
 }
 #icon2{
     width: 30%;
     height: 50%;
-    background-color: blue;
+    text-align: center;
+}
+#icon2 i{
+    font-size: 50px;
+    color: #000000a8;
+}
+#icon2 h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+}
+#icon2 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 20px;
+    color: #0000005b;
+    font-weight: 300;
 }
 #icon3{
     width: 30%;
     height: 50%;
-    background-color: black;
+    text-align: center;
+}
+#icon3 i{
+    font-size: 50px;
+    color: #000000a8;
+}
+#icon3 h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+}
+#icon3 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 20px;
+    color: #0000005b;
+    font-weight: 300;
 }
 #icon4{
     width: 30%;
     height: 50%;
-    background-color: firebrick;
+    text-align: center;
+}
+#icon4 i{
+    font-size: 50px;
+    color: #000000a8;
+}
+#icon4 h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+}
+#icon4 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 20px;
+    color: #0000005b;
+    font-weight: 300;
 }
 #icon5{
     width: 30%;
     height: 50%;
-    background-color: darkcyan;
+    text-align: center;
+}
+#icon5 i{
+    font-size: 50px;
+    color: #000000a8;
+}
+#icon5 h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+}
+#icon5 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 20px;
+    color: #0000005b;
+    font-weight: 300;
 }
 #icon6{
     width: 30%;
     height: 50%;
-    background-color: cadetblue;
+    text-align: center;
+}
+#icon6 i{
+    font-size: 50px;
+    color: #000000a8;
+}
+#icon6 h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+}
+#icon6 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 20px;
+    color: #0000005b;
+    font-weight: 300;
 }
