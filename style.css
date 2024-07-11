@@ -189,10 +189,10 @@ html, body{
 #section3{
     top: 100;
     width: 100%;
-    height: 150%;
+    height: 140%;
     background-color: #fafafa;
     border-top: .3px solid rgba(0, 0, 0, 0.144);
-    padding: 120px 100px;
+    padding: 110px 100px;
 }
 #sec3lo{
     width: 100%;
