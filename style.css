@@ -14,12 +14,7 @@ html, body{
     background-position: center;
     background-size: cover;
 }
-#section4{
-    top: 100;
-    width: 100%;
-    height: 140%;
-    background-color: #fff;
-}
+
 #section5{
     top: 100;
     width: 100%;
@@ -339,4 +334,16 @@ html, body{
     font-size: 20px;
     color: #0000005b;
     font-weight: 300;
+}
+#section4{
+    top: 100;
+    width: 100%;
+    height: 140%;
+    /*background-color: #fff;*/
+    padding: 100px 50px;
+}
+#sec4mainbody{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
 }
