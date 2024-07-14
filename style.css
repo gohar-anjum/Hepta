@@ -347,3 +347,13 @@ html, body{
     height: 100%;
     background-color: blueviolet;
 }
+#sec4txt{
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    color: #000;
+}
+#sec4txt p{
+    color: #000;
+    
+}
