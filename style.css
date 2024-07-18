@@ -15,12 +15,6 @@ html, body{
     background-size: cover;
 }
 
-#section5{
-    top: 100;
-    width: 100%;
-    height: 120%;
-    background-color: #65C0BA;
-}
 #section6{
     top: 100;
     width: 100%;
@@ -345,6 +339,8 @@ html, body{
 #section4 #sec4mb{
     width: 100%;
     height: 100%;
+    position: relative;
+
 }
 #sec4txt{
     text-align: center;
@@ -365,3 +361,52 @@ html, body{
     font-family: "Abril Fatface", serif;
     letter-spacing: 2px;
 } 
+
+#sec4slider{
+    position: absolute;
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+    animation-name: secanime;
+    animation-duration: 10s;
+    animation-delay: 1s;;
+    animation-iteration-count: infinite;
+    z-index: 2;
+}
+
+@keyframes secanime {
+    0%{
+        background-image: url(https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+    }
+    25%{
+        background-image: url(https://images.unsplash.com/photo-1496449903678-68ddcb189a24?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+    }
+    75%{
+        background-image: url(https://images.unsplash.com/photo-1498019559366-a1cbd07b5160?q=80&w=1458&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background-image: url(https://images.unsplash.com/photo-1465321897912-c692b37a09a6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+    }
+}
+#section5{
+    position: inherit;
+    top: 100;
+    width: 100%;
+    height: 180%;
+    background-color: #65C0BA;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+    z-index: 1;
+}
