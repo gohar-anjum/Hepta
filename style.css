@@ -341,19 +341,22 @@ html, body{
     height: 140%;
     background-color: #fff;
     padding: 100px 50px;
+    position: relative;
 }
 #section4 #sec4mb{
+    position: absolute;
     width: 100%;
     height: 100%;
     background-color: blueviolet;
 }
 #sec4txt{
+    background-color: red;
     text-align: center;
-    width: 100%;
+    width: 60%;
     height: 30%;
     color: #000;
 }
 #sec4txt p{
     color: #000;
     
-}
+} 
