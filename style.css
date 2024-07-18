@@ -533,8 +533,80 @@ html, body{
 #section8{
     top: 100;
     width: 100%;
-    height: 100%;
+    height: 120%;
+    padding: 10%;
     background-color: #fff;
+}
+#sec8mtxt{
+    width: 100%;
+    height: 35%;
+    padding: 0 16%;
+    text-align: center;
+}
+#sec8mtxt h1{
+    font-size: 33px;
+    font-weight: 500;
+    font-family: "Abril Fatface", serif;
+}
+#sec8mtxt p{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Mukta Mahee", sans-serif;
+    color: #00000077;
+}
+#sec8blocks{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    height: 50%;
+}
+.block1{
+    width: 30%;
+    height: 100%
+}
+.sec8img1{
+    height:80%;
+    background-image: url(https://images.unsplash.com/photo-1689066117649-0ca9762fc92c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2xhc3MlMjBvZiUyMGp1aWNlfGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
+}
+.sec8img2{
+    height:80%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1675802755792-a7cfd346b5be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Ym9hdHxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;}
+.sec8img3{
+    height:80%;
+    background-image: url(https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c29mYXxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+.sec8img4{
+    height:80%;
+    background-image: url(https://images.unsplash.com/photo-1485443856970-7b0483a73963?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdpcmwlMjBjbGltYmluZyUyMG1vdW50YWlufGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
+}
+.sec8ratings{
+    display: flex;
+    justify-content: space-between;
+}
+.block1 h3{
+    margin-top: 10px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+.sec8ratings p{
+    color: #00000085;
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.sec8ratings i{
+    color: #65C0BA;
 }
 #footer{
     top: 100;
