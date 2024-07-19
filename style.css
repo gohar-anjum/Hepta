@@ -701,9 +701,7 @@ html, body{
     padding: 0 10px;
 }
 
-@media(max-width: 500px){
-    #heroheader{
-    }
+@media(max-width: 600px){
     #herocontent{
         width: 90%;
     }
