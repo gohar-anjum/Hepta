@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#heroheader{
+    width: 100%;
+    height: 75%;
+    background-image: url(https://images.unsplash.com/photo-1473269486199-2d4465ea0419?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#nav{
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#nav h2{
+    font-size: 30px;
+    font-family: "Abril Fatface", serif;
+}
+#nav i{
+    font-size: 40px;
+    cursor: pointer;
+}
+#herocontent{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center !important;
+}
+#herocontent h1{
+        font-size: 80px;
+        font-family: "Abril Fatface", serif;
+        margin-bottom: 20px;
+}
+#herocontent h4{
+    font-size: 30px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 200;
+    margin-bottom: 48px;
+}
+#menuitems{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 10;
+    display: none;
+}
+#menuitems i{
+    cursor: pointer;
+    padding: 50px 20px;
+    position: absolute;
+    right: 0;
+    font-size: 40px;
+}
+#itemlinks{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#itemlinks a{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #000;
+    text-decoration: none;
+    font-family: "Abril Fatface", serif;
+}
+
+#itemlinks a:hover{
+    color: #65C0BA;
+}
+
+#section2{
+    top: 100;
+    width: 100%;
+    height: 120%;
+    background-color: #fff;
+    padding: 120px 110px;
+    display: flex;
+    flex-direction: column;
+}
+#allcontentofsec2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#sec2img{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1560703650-ef3e0f254ae0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+#sec2content{
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#sec2mcontent{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+#sec2mcontent h1{
+    font-size: 33px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#sec2mcontent P{
+    font-size: 18px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+#sec2mcontent #playbutton{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    color: #3f9a94ee;
+    cursor: pointer;
+    align-items: center;
+}
+
+#playbutton button{
+    padding: 16px 30px;
+    background-color: transparent;
+    border: 1.5px solid #3f9a94ee;
+    border-radius: 3px;
+}
+#playbutton button h6{
+    font-family: "Mukta Mahee", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #000;
+    font-size: 15px;
+}
+#playbutton button:hover{
+    padding: 16px 30px;
+    background-color: #3f9a94ee;
+    color: #fff;
+    font-family: "Mukta Mahee", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#playbutton button:hover h6{
+    color: #fff;
+}
+#upperpart{
+    width: 100%;
+    height: 130%;
+    background-color: #fff;
+}
+#lsmtxt{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    padding: 5% 25%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#lsmtxt h1{
+    font-size: 60px;
+    font-family: "Abril Fatface", serif;
+}
+
+#lsmtxt p{
+    font-size: 20px;
+    font-family: "Mukta Mahee", sans-serif;
+    opacity: .7;
+}
+
+#imagediv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 80%;
+    padding: 10px 8% 8% 8%;
+}
+#imagediv #images{
+    width: 100%;
+    height: 100%;
+    animation-name: secanime;
+    animation-duration: 10s;
+    animation-delay: 1s;;
+    animation-iteration-count: infinite;
+}
+@keyframes secanime {
+    0%{
+        background-image: url(https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+    }
+    25%{
+        background-image: url(https://images.unsplash.com/photo-1496449903678-68ddcb189a24?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+    }
+    75%{
+        background-image: url(https://images.unsplash.com/photo-1498019559366-a1cbd07b5160?q=80&w=1458&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background-image: url(https://images.unsplash.com/photo-1465321897912-c692b37a09a6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
+    }
+}
