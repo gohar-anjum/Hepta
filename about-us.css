@@ -177,7 +177,7 @@ html, body{
 }
 #lsmtxt{
     width: 100%;
-    height: 40%;
+    height: 30%;
     display: flex;
     padding: 5% 25%;
     flex-direction: column;
@@ -239,4 +239,179 @@ html, body{
         background-position: center;
         background-size: cover;
     }
+}
+
+#team{
+    height: 200%;
+    width: 100%;
+}
+#tmtxt{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    padding: 10% 24% 10px 24%;
+}
+#tmtxt h1{
+    font-size: 40px;
+    font-family: "Abril Fatface", serif;
+}
+
+#tmtxt p{
+    font-size: 20px;
+    font-family: "Mukta Mahee", sans-serif;
+    opacity: .7;
+}
+
+#tblocks{
+    width: 100%;
+    height: 75%;
+    padding: 6% 8%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.blockitem{
+    width: 350px;
+    height: 410px;
+    background-color: rebeccapurple;
+}
+.blockitem:hover{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.418);
+}
+.mainimg1{
+    cursor: pointer;
+    width: 100%;
+    height: 75%;
+    background-image: url(https://images.unsplash.com/photo-1582562048678-a11dddd8a124?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGFpdHxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+.mainimg2{
+    cursor: pointer;
+    width: 100%;
+    height: 75%;
+    background-image: url(https://images.unsplash.com/photo-1476817343404-01ccd61218d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydGFpdHxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+.mainimg3{
+    cursor: pointer;
+    width: 100%;
+    height: 75%;
+    background-image: url(https://images.unsplash.com/photo-1487704645551-52a0ce1453f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBvcnRhaXR8ZW58MHx8MHx8fDA%3D);
+    background-position: center;
+    background-size: cover;
+}
+#ttxtarea{
+    padding: 20px;
+    width: 100%;
+    height: 25%;
+    background-color: #fff;
+    border: .1px solid rgba(0, 0, 0, 0.041);
+}
+#ttxtarea h5{
+    font-size: 18px;
+    font-family: "Mukta Mahee", sans-serif;
+    opacity: .5;
+    color: #00000091;
+    font-weight: 150;
+}
+#ttxtarea h3{
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: "Abril Fatface", serif;
+}
+#footer{
+    top: 100;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #1A1A1A;
+}
+#footerele1{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele1 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele1 a{
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffffaf;
+    font-family: "Mukta Mahee", sans-serif;
+}
+#footerele2{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele2 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele2 a{
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffffaf;
+    font-family: "Mukta Mahee", sans-serif;
+}
+#footerele3{
+    width: 20%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele3 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele3 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffffaf;
+}
+#footerele3 h6{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffffaf;   
+}
+
+#footerele4{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele4 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele4 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #ffffff70;
+}
+#nlform input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+}
+#nlform{
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    padding: 0 10px;
 }
