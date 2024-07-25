@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#heroheader{
+    width: 100%;
+    height: 75%;
+    background-image: url(https://images.unsplash.com/photo-1609104573510-b4e22c6a7a27?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#nav{
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#nav h2{
+    font-size: 30px;
+    font-family: "Abril Fatface", serif;
+}
+#nav i{
+    font-size: 40px;
+    cursor: pointer;
+}
+#herocontent{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center !important;
+}
+#herocontent h1{
+        font-size: 80px;
+        font-family: "Abril Fatface", serif;
+        margin-bottom: 20px;
+}
+#herocontent h4{
+    font-size: 30px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 200;
+    margin-bottom: 48px;
+}
+#menuitems{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 10;
+    display: none;
+}
+#menuitems i{
+    cursor: pointer;
+    padding: 50px 20px;
+    position: absolute;
+    right: 0;
+    font-size: 40px;
+}
+#itemlinks{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#itemlinks a{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #000;
+    text-decoration: none;
+    font-family: "Abril Fatface", serif;
+}
+
+#itemlinks a:hover{
+    color: #65C0BA;
+}
+.contactmain{
+    width: 100%;
+    height: 135%;
+    padding: 10%;
+    display: flex;
+    gap: 20px;
+}
+.contactmain #cleft{
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px 35px;
+   
+}
+#line1{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.cleft-group{
+    width: 50%;
+}
+.cleft-group span{
+    font-size: 20px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.336);
+}
+.cleft-group input{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.288);
+}
+#line2{
+    margin-top: 15px;
+    width: 100%;
+}
+.cleft-group2 label{
+    font-size: 20px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.336); 
+    width: 100%;   
+}
+.cleft-group2 input{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.288);
+}
+#line3{
+    margin-top: 15px;
+    width: 100%;
+}
+.cleft-group3 label{
+    font-size: 20px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.336); 
+    width: 100%;   
+}
+.cleft-group3 input{
+    font-size: 20px;
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.288);
+}
+#cleft button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 2px solid #65C0BA;
+    border-radius: 5px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+#cleft button:hover{
+    margin-top: 20px;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #65C0BA;
+    border: 2px solid #65C0BA;
+    border-radius: 5px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+.contactmain #cright{
+    width: 40%;
+    height: 100%;
+    padding: 0px 0px 0px 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.crele p{
+    font-size: 16px;
+    font-family: "Mukta Mahee", sans-serif;
+    color: #65C0BA;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.crele h1{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Abril Fatface", serif;
+}
+#section7{
+    top: 100;
+    width: 100%;
+    height: 120%;
+    background-color:#FAFAFA;
+    padding: 10%;
+}
+#sec7mtxt{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Abril Fatface", serif;
+}
+#sec7reviews{
+    margin-top: 7%;
+    display: flex;
+    gap: 15px;
+}
+.revauth{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #00000079;
+}
+
+.review1{
+    width: 35%;
+}
+.sec7imgdiv1{
+    background-image: url(https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.sec7imgdiv2{
+    background-image: url(https://images.unsplash.com/photo-1485217988980-11786ced9454?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.sec7imgdiv3{
+    background-image: url(https://plus.unsplash.com/premium_photo-1666299429593-4da062e5e341?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fHByb2Zlc3Npb25hbCUyMGJ1c2luZXNzJTIwbWFufGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.mreview{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 300;
+    color: #000000d2;
+}
+
+#footer{
+    top: 100;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #1A1A1A;
+}
+#footerele1{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele1 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele1 a{
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffffaf;
+    font-family: "Mukta Mahee", sans-serif;
+}
+#footerele2{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele2 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele2 a{
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffffaf;
+    font-family: "Mukta Mahee", sans-serif;
+}
+#footerele3{
+    width: 20%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele3 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele3 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffffaf;
+}
+#footerele3 h6{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffffaf;   
+}
+
+#footerele4{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele4 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele4 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #ffffff70;
+}
+#nlform input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+}
+#nlform{
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    padding: 0 10px;
+}
+
