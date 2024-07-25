@@ -11,7 +11,7 @@ html, body{
 #heroheader{
     width: 100%;
     height: 75%;
-    background-image: url(https://images.unsplash.com/photo-1699469865778-98fd536df6e5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.unsplash.com/photo-1697738736454-df7e9f1d41fd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
     background-size: cover;
 }
@@ -87,4 +87,284 @@ html, body{
 
 #itemlinks a:hover{
     color: #65C0BA;
+}
+#section2{
+    width: 100%;
+    height: 240%;
+    padding: 10% 5%;
+    display: flex;
+    background-color: #dfdfdf71;
+}
+
+#secl{
+    width: 70%;
+    height: 100%;
+}
+.rsecl{
+    height: 420;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.seclblock{
+    width: 45%;
+    height: 400px;
+    cursor: pointer;
+}
+.secblockimg{
+    width: 100%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1473218380728-484c90991604?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGRpbSUyMHN1bmxpZ2h0fGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
+}
+.secblocktxtarea{
+    width: 100%;
+    height: 30%;
+    background-color: #fff;
+    padding: 25px;
+}
+.secblocktxtarea p{
+    font-size: 18px;
+    color: #00000079;
+    font-weight: 200;
+    font-family: "Mukta Mahee", sans-serif;
+}
+.secblocktxtarea h3{
+    font-size: 26px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 600;
+}
+
+#secr{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 2%;
+}
+#sb{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pp{
+    height: 45%;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ppblock{
+    cursor: pointer;
+    height: 13.8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+#pagesbutton{
+    width: 100%;
+    height: 10%;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+.pages{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#selected{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #65c0bab4;
+}
+#pp h6{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Mukta Mahee", sans-serif;
+}
+.ppbimg{
+    width: 40%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1611306743426-f8877e6ad67f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGRpbSUyMHN1bmxpZ2h0fGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
+}
+.ppbtxtarea{
+    width: 60%;
+    height: 100%;
+    padding: 0px 5px 5px 15px;
+}
+.ppbtxtarea p{
+    font-size: 15px;
+    color: #00000079;
+    font-weight: 200;
+    font-family: "Mukta Mahee", sans-serif;
+}
+.ppbtxtarea h3{
+    font-size: 18px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+}
+#sbarea{
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.199);
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+#sbarea input{
+    border: none;
+    font-size: 16px;
+}
+#sbarea i{
+    color: #0000007a;
+    font-size: 18px;
+}
+#cg{
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.catitem{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+    cursor: pointer;
+}
+.catitem h3{
+    font-size: 18px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 350;
+    color: #65c0bab4;
+}
+.catitem p{
+    font-size: 18px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 350;
+    color: rgba(0, 0, 0, 0.445);
+}
+
+#cg p{
+    font-size: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Mukta Mahee", sans-serif;
+    margin-bottom: 20px;
+}
+
+#footer{
+    top: 100;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #1A1A1A;
+}
+#footerele1{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele1 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele1 a{
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffffaf;
+    font-family: "Mukta Mahee", sans-serif;
+}
+#footerele2{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele2 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele2 a{
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffffaf;
+    font-family: "Mukta Mahee", sans-serif;
+}
+#footerele3{
+    width: 20%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele3 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele3 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffffaf;
+}
+#footerele3 h6{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffffaf;   
+}
+
+#footerele4{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele4 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele4 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #ffffff70;
+}
+#nlform input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+}
+#nlform{
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    padding: 0 10px;
 }
