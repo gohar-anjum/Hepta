@@ -88,3 +88,127 @@ html, body{
 #itemlinks a:hover{
     color: #65C0BA;
 }
+
+#gallerypart{
+    height: 165%;
+    width: 100%;
+    padding: 6%;
+}
+.gp1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+}
+.gp1img{
+    height: 180px;
+    width: 400px;
+    background-image: url(https://images.unsplash.com/photo-1582562048678-a11dddd8a124?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGFpdHxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+#gp2{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    gap: 20px;
+}
+.gp2img{
+    height: 360px;
+    width: 800px;
+    background-image: url(https://images.unsplash.com/photo-1476817343404-01ccd61218d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydGFpdHxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+#footer{
+    top: 100;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #1A1A1A;
+}
+#footerele1{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele1 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele1 a{
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffffaf;
+    font-family: "Mukta Mahee", sans-serif;
+}
+#footerele2{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele2 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele2 a{
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffffaf;
+    font-family: "Mukta Mahee", sans-serif;
+}
+#footerele3{
+    width: 20%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele3 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele3 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffffaf;
+}
+#footerele3 h6{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffffaf;   
+}
+
+#footerele4{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#footerele4 h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+#footerele4 p{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #ffffff70;
+}
+#nlform input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+}
+#nlform{
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    padding: 0 10px;
+}
