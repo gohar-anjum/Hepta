@@ -1047,29 +1047,66 @@ html, body{
     #section2 {
         top: 100;
         width: 100%;
-        height: 81%;
+        height: 100%;
         background-color: #fff;
         padding: 80px 20px;
+    }
+    #lsmtxt {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        padding: 5% 5%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* font-size: 50px; */
+    }
+    #imagediv #images {
+        width: 100%;
+        height: 75%;
+        animation-name: secanime;
+        animation-duration: 10s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
     }
     #section3 {
         top: 100;
         width: 100%;
-        height: 130%;
+        height: 100%;
         background-color: #fafafa;
         border-top: .3px solid rgba(0, 0, 0, 0.144);
-        padding: 110px 20px;
+        padding: 70px 20px;
     }
+
     #toptxt {
         width: 100%;
         height: 23%;
         padding: 0 15%;
+    }
+    #hfmtxt {
+        height: 45%;
+        text-align: center;
+        padding-right: 4%;
+        padding-left: 4%;
+        padding-bottom: 20px;
+        padding-top: 30vw;
+    }
+    #allblock {
+        width: 100%;
+        height: 65%;
+        padding-bottom: 40px;
+    }
+    #lastsection {
+        width: 100%;
+        height: 150%;
     }
     #iconlist {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         justify-content: space-around;
-        height: 77%;
+        height: 100%;
     }
     #icon1 {
         width: 40%;
