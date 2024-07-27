@@ -596,6 +596,10 @@ html, body{
         margin-top: 50px;
         height: 130%;
     }
+    #sec2img {
+        width: 55%;
+        height: 70%;
+    }
     #section4{
         height: 50%;
     }
@@ -618,6 +622,7 @@ html, body{
     }
     #sec2img {
         width: 55%;
+        height: 100%;
     }
     
     #twoallcontentofsec2    #sec2content {
@@ -795,6 +800,11 @@ html, body{
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    #lastsection {
+        width: 100%;
+        height: 260%;
+        padding-top: 20%;
     }
     #imagediv {
         display: flex;
@@ -1246,6 +1256,20 @@ html, body{
         border-top: .3px solid rgba(0, 0, 0, 0.144);
         padding: 110px 20px;
     }
+    #iconlist {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        height: 100%;
+    }
+    #section2 {
+        top: 100;
+        width: 100%;
+        height: 150%;
+        background-color: #fff;
+        padding: 80px 20px;
+    }
     #sec3txt h1 {
         font-family: "Abril Fatface", serif;
         margin-bottom: 5px;
@@ -1484,7 +1508,7 @@ html, body{
     #footer {
         top: 100;
         width: 100%;
-        height: 70%;
+        height: 82%;
         padding: 10% 4%;
         display: flex;
         justify-content: space-between;
