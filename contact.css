@@ -354,3 +354,282 @@ html, body{
     padding: 0 10px;
 }
 
+/*Responsive*/
+@media(max-width: 575px){
+    #herocontent{
+        width: 100%;
+    }
+    #heroheader h1{
+        font-size: 40px;
+        text-wrap: none;
+    }
+    #heroheader h4{
+        font-size: 18px;
+    }
+    .contactmain {
+        width: 100%;
+        height: 115%;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contactmain #cleft {
+        width: 100%;
+        height: 60%;
+        background-color: #fff;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 40px 35px;
+    }
+    .contactmain #cright {
+        width: 100%;
+        height: 40%;
+        padding: 0px 0px 0px 45px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #section7 {
+        top: 100;
+        width: 100%;
+        height: 120%;
+        background-color: #FAFAFA;
+        padding: 8% 4%;
+    }
+    #sec7reviews {
+        margin-top: 7%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .review1 {
+        width: 100%;
+    }
+    #footer{
+        flex-direction: column;
+        height: 120%;
+        gap: 5px;
+        padding: 30px 30px;
+    }
+    .ri-send-plane-fill{
+        color: #fff;
+    }
+    #footerele1{
+        width: 100%;
+    }
+    #footerele2{
+        width: 100%;
+    }
+    #footerele3{
+        width: 100%;
+    }
+    #footerele4{
+        width: 100%;
+    }
+    #nlform{
+        width: 70%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #herocontent{
+        width: 100%;
+    }
+    #heroheader h1{
+        font-size: 40px;
+        text-wrap: none;
+    }
+    #heroheader h4{
+        font-size: 18px;
+    }
+    .contactmain {
+        width: 100%;
+        height: 115%;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contactmain #cleft {
+        width: 100%;
+        height: 60%;
+        background-color: #fff;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 40px 35px;
+    }
+    .contactmain #cright {
+        width: 100%;
+        height: 40%;
+        padding: 0px 0px 0px 45px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #section7 {
+        top: 100;
+        width: 100%;
+        height: 85%;
+        background-color: #FAFAFA;
+        padding: 8% 4%;
+    }
+    #sec7reviews {
+        margin-top: 7%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .review1 {
+        width: 100%;
+    }
+    #footer {
+        flex-direction: row;
+        height: 44%;
+        gap: 25px;
+        padding: 30px 30px;
+    }
+    .ri-send-plane-fill{
+        color: #fff;
+    }
+    #footerele1{
+        width: 100%;
+    }
+    #footerele2{
+        width: 100%;
+    }
+    #footerele3{
+        width: 100%;
+    }
+    #footerele4{
+        width: 100%;
+    }
+    #nlform {
+        display: flex;
+        width: 99%;
+    }
+  }
+@media (min-width: 768px) and (max-width: 991px) {
+    #herocontent{
+        width: 100%;
+    }
+    #heroheader h1{
+        font-size: 40px;
+        text-wrap: none;
+    }
+    #heroheader h4{
+        font-size: 18px;
+    }
+    .contactmain {
+        width: 100%;
+        height: 160%;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contactmain #cleft {
+        width: 100%;
+        height: 60%;
+        background-color: #fff;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 40px 35px;
+    }
+    .contactmain #cright {
+        width: 100%;
+        height: 40%;
+        padding: 0px 0px 0px 45px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #section7 {
+        top: 100;
+        width: 100%;
+        height: 90%;
+        background-color: #FAFAFA;
+        padding: 8% 4%;
+    }
+    #sec7reviews {
+        margin-top: 7%;
+        display: flex;
+        gap: 15px;
+    }
+    .review1 {
+        width: 30%;
+    }
+    #footer {
+        flex-direction: row;
+        height: 65%;
+        gap: 25px;
+        padding: 30px 30px;
+    }
+    .ri-send-plane-fill{
+        color: #fff;
+    }
+    #footerele1{
+        width: 100%;
+    }
+    #footerele2{
+        width: 100%;
+    }
+    #footerele3{
+        width: 100%;
+    }
+    #footerele4{
+        width: 100%;
+    }
+    #nlform {
+        display: flex;
+        width: 99%;
+    }
+  }
+  @media (min-width: 1200px) {
+    #herocontent{
+        width: 90%;
+    }
+    #heroheader h1{
+        font-size: 40px;
+        text-wrap: none;
+    }
+    #heroheader h4{
+        font-size: 18px;
+    }
+    .contactmain {
+        width: 100%;
+        height: 75%;
+        padding: 10%;
+        display: flex;
+        gap: 20px;
+    }
+    #section7 {
+        top: 100;
+        width: 100%;
+        height: 80%;
+        background-color: #FAFAFA;
+        padding: 10%;
+    }
+    #footer {
+        flex-direction: row;
+        height: 55%;
+        gap: 25px;
+        padding: 30px 30px;
+    }
+    .ri-send-plane-fill{
+        color: #fff;
+    }
+    #footerele1{
+        width: 100%;
+    }
+    #footerele2{
+        width: 100%;
+    }
+    #footerele3{
+        width: 100%;
+    }
+    #footerele4{
+        width: 100%;
+    }
+    #nlform {
+        display: flex;
+        width: 99%;
+    }
+}
