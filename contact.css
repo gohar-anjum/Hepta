@@ -90,7 +90,6 @@ html, body{
 }
 .contactmain{
     width: 100%;
-    height: 135%;
     padding: 10%;
     display: flex;
     gap: 20px;
@@ -185,7 +184,6 @@ html, body{
 .contactmain #cright{
     width: 40%;
     height: 100%;
-    padding: 0px 0px 0px 45px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -205,7 +203,6 @@ html, body{
 #section7{
     top: 100;
     width: 100%;
-    height: 120%;
     background-color:#FAFAFA;
     padding: 10%;
 }
@@ -368,7 +365,6 @@ html, body{
     }
     .contactmain {
         width: 100%;
-        height: 115%;
         padding: 10%;
         display: flex;
         flex-direction: column;
@@ -384,17 +380,42 @@ html, body{
     .contactmain #cright {
         width: 100%;
         height: 40%;
-        padding: 0px 0px 0px 45px;
         display: flex;
         flex-direction: column;
         gap: 30px;
     }
+    #line1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .crele p {
+        font-size: 13px;
+        font-family: "Mukta Mahee", sans-serif;
+        color: #65C0BA;
+        font-weight: bolder;
+        letter-spacing: 1px;
+    }
+    .crele h1 {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Abril Fatface", serif;
+    }
+    .cleft-group {
+        width: 100%;
+    }
     #section7 {
         top: 100;
         width: 100%;
-        height: 120%;
         background-color: #FAFAFA;
         padding: 8% 4%;
+    }
+    #sec7mtxt{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Abril Fatface", serif;
     }
     #sec7reviews {
         margin-top: 7%;
@@ -407,7 +428,7 @@ html, body{
     }
     #footer{
         flex-direction: column;
-        height: 120%;
+        height: 165%;
         gap: 5px;
         padding: 30px 30px;
     }
@@ -428,6 +449,7 @@ html, body{
     }
     #nlform{
         width: 70%;
+        display: flex;
     }
 }
 
@@ -444,7 +466,6 @@ html, body{
     }
     .contactmain {
         width: 100%;
-        height: 115%;
         padding: 10%;
         display: flex;
         flex-direction: column;
@@ -468,7 +489,6 @@ html, body{
     #section7 {
         top: 100;
         width: 100%;
-        height: 85%;
         background-color: #FAFAFA;
         padding: 8% 4%;
     }
@@ -520,7 +540,6 @@ html, body{
     }
     .contactmain {
         width: 100%;
-        height: 160%;
         padding: 10%;
         display: flex;
         flex-direction: column;
@@ -544,9 +563,11 @@ html, body{
     #section7 {
         top: 100;
         width: 100%;
-        height: 90%;
         background-color: #FAFAFA;
         padding: 8% 4%;
+    }
+    #sec7mtxt h1{
+        font-size: 8vw;
     }
     #sec7reviews {
         margin-top: 7%;
