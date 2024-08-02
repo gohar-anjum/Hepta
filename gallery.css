@@ -90,7 +90,6 @@ html, body{
 }
 
 #gallerypart{
-    height: 165%;
     width: 100%;
     padding: 6%;
 }
@@ -249,13 +248,12 @@ html, body{
         gap: 20px;
     }
     #gallerypart {
-        height: 500%;
         width: 100%;
         padding: 6%;
     }
     #footer{
         flex-direction: column;
-        height: 120%;
+        height: 165%;
         gap: 5px;
         padding: 30px 30px;
     }
@@ -276,6 +274,7 @@ html, body{
     }
     #nlform{
         width: 70%;
+        display: flex;
     }
 }
 
@@ -314,7 +313,6 @@ html, body{
         gap: 20px;
     }
     #gallerypart {
-        height: 280%;
         width: 100%;
         padding: 6%;
     }
@@ -386,7 +384,6 @@ html, body{
         gap: 20px;
     }
     #gallerypart {
-        height: 280%;
         width: 100%;
         padding: 6%;
     }
