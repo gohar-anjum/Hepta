@@ -92,7 +92,6 @@ html, body{
 #section3{
     top: 75;
     width: 100%;
-    height: 100%;
     background-color: #fafafa;
     border-top: .3px solid rgba(0, 0, 0, 0.144);
     padding: 90px 70px;
@@ -347,7 +346,7 @@ html, body{
 }
 #lastsection{
     width: 100%;
-    height: 260%;
+    height: 250%;
 }
 #upperpart{
     width: 100%;
@@ -586,15 +585,11 @@ html, body{
 /* Responsive */
 
 @media(max-width: 575px){
-    #sec2mcontent{
-        height: 80%;
-    }
     #sec2content{
         height: 80%;
     }
     #section2{
         margin-top: 50px;
-        height: 130%;
     }
     #sec2img {
         width: 55%;
@@ -615,41 +610,83 @@ html, body{
     }
     #section2{
         padding: 30px 10px 30px 10px;
+        gap: 20px;
     }
-    #allcontentofsec2{
-        display: flex;
-        flex-direction: column;
-    }
+    
     #sec2img {
-        width: 55%;
+        width: 100%;
         height: 100%;
     }
     
     #twoallcontentofsec2    #sec2content {
-        width: 52%;
-        padding-right: 5px;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     #allcontentofsec2    #sec2content {
-        width: 52%;
-        padding-left: 5px;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     #twoallcontentofsec2 {
         width: 100%;
         height: 68%;
         display: flex;
+        flex-direction: column-reverse;
+    }
+    #sec2mcontent h1 {
+        font-size: 25px;
+        font-family: "Abril Fatface", serif;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    #sec2mcontent P {
+        font-size: 15px;
+        font-family: "Mukta Mahee", sans-serif;
+        font-weight: 200;
+        margin-bottom: 40px;
+    }
+    #playbutton button {
+        padding: 10px 20px;
+        background-color: transparent;
+        border-color: #3f9a94ee;
+        border-radius: 3px;
+    }
+    #playbutton button h6 {
+        font-family: "Mukta Mahee", sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: #000;
+        font-size: 11px;
     }
     #allcontentofsec2 {
+        flex-direction: column;
         height: 68%;
-        display: flex;
-        flex-direction: row;
+    }
+    #sec2img2 {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://images.unsplash.com/photo-1627138094290-61cf07e22152?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-size: cover;
     }
     #section3{
-        height: 120%;
         padding: 8% 3%;
     }
     #sec3lo {
         width: 100%;
-        height: 85%;
+    }
+    #iconlist {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        /* height: 100%; */
+        gap: 10px;
+        animation-name: getup;
+        animation-delay: .3s;
+        animation-duration: 1.5s;
     }
     #toptxt{
         padding-left: 5px;
@@ -712,14 +749,14 @@ html, body{
         width: 100%;
         height: 60%;
     }
-    .bk1img, .bk2img, .bk3img{
-        height: 50%;
+    .bk1img, .bk2img, .bk3img {
+        height: 60%;
     }
     .bk1txt h4{
         font-size: 17px;
     }
-    .bk1txt h2{
-        font-size: 22px;
+    .bk1txt h2 {
+        font-size: 4.5vw;
     }
     .bk1txt p{
         font-size: 18px;
@@ -801,9 +838,18 @@ html, body{
         align-items: center;
         text-align: center;
     }
+    #lsmtxt h1 {
+        font-size: 35px;
+        font-family: "Abril Fatface", serif;
+    }
+    #lsmtxt p {
+        font-size: 15px;
+        font-family: "Mukta Mahee", sans-serif;
+        opacity: .7;
+    }
     #lastsection {
         width: 100%;
-        height: 260%;
+        height: none;
         padding-top: 20%;
     }
     #imagediv {
@@ -822,6 +868,15 @@ html, body{
         padding-left: 1%;
         padding-bottom: 20px;
         padding-top: 30vw;
+    }
+    #hfmtxt h1 {
+        font-size: 35px;
+        font-family: "Abril Fatface", serif;
+    }
+    #hfmtxt p {
+        font-size: 15px;
+        font-family: "Mukta Mahee", sans-serif;
+        opacity: .7;
     }
     #hfblocks {
         width: 100%;
@@ -844,12 +899,9 @@ html, body{
         background-color: #e8ebee;
         z-index: 0;
     }
-    .bk1img, .bk2img, .bk3img {
-        height: 82%;
-    }
     #footer{
         flex-direction: column;
-        height: 120%;
+        height: 165%;
         gap: 5px;
         padding: 30px 30px;
     }
@@ -870,6 +922,7 @@ html, body{
     }
     #nlform{
         width: 70%;
+        display: flex;
     }
 }
 
@@ -1057,7 +1110,6 @@ html, body{
     #section2 {
         top: 100;
         width: 100%;
-        height: 100%;
         background-color: #fff;
         padding: 80px 20px;
     }
@@ -1195,6 +1247,11 @@ html, body{
         background-color: #fff;
         height: 70%;
     }
+    .bk1txt h2 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 600;
+        font-size: 17px;
+    }
     #section7 {
         top: 100;
         width: 100%;
@@ -1239,4 +1296,44 @@ html, body{
         background-color: #1A1A1A;
     }
     
+  }
+  @media (min-width: 992px) and (max-width: 1250px){
+    #allcontentofsec2 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+    #twoallcontentofsec2 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+    #section2 {
+        top: 100;
+        width: 100%;
+        height: 130%;
+        background-color: #fff;
+        padding: 130px 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    #lastsection {
+        width: 100%;
+        height: 120%;
+    }
+    #footer {
+        top: 100;
+        width: 100%;
+        height: 50%;
+        padding: 10%;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        background-color: #1A1A1A;
+    }
+    .bk1txt h2 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 600;
+        font-size: 20px;
+    }
   }
