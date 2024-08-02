@@ -162,7 +162,6 @@ html, body{
 #section3{
     top: 100;
     width: 100%;
-    height: 140%;
     background-color: #fafafa;
     border-top: .3px solid rgba(0, 0, 0, 0.144);
     padding: 110px 100px;
@@ -322,7 +321,6 @@ html, body{
 }
 #section4 #sec4mb{
     width: 100%;
-    height: 100%;
     position: relative;
 
 }
@@ -350,7 +348,7 @@ html, body{
     position: absolute;
     margin-top: 150px;
     width: 100%;
-    height: 100%;
+    height: 220%;
     animation-name: secanime;
     animation-duration: 10s;
     animation-delay: 1s;;
@@ -476,7 +474,6 @@ html, body{
 #section7{
     top: 100;
     width: 100%;
-    height: 120%;
     background-color:#FAFAFA;
     padding: 10%;
 }
@@ -741,7 +738,7 @@ html, body{
         padding-left: 5px;
     }
     #section3{
-        height: 200%;
+        height: 270%;
         padding: 20px 5px;
     }
     #toptxt{
@@ -783,21 +780,28 @@ html, body{
     #sec4txt h1{
         font-size: 30px;
     }
-    #sec4slider{
-        height: 64%;
-        margin-top: 60%;
+    #sec4txt p{
+        font-size: 15px;
+    }
+    #sec4slider {
+        max-height: 150%;
+        margin-top: 20%;
     }
     #section6{
-        height: 230%;
+        height: 270%;
     }
     #sec6mtxt h1{
         font-size: 25px;
+    }
+    #sec6mtxt p{
+        font-size: 15px;
     }
     #sec6mtxt{
         padding: 20px 5px;
         height: 10%;
     }
     #sec6blocks{
+        height: 90%;
         padding: 20px 25px;
         flex-direction: column;
     }
@@ -818,7 +822,6 @@ html, body{
         font-size: 18px;
     }
     #section7{
-        height: 75%;
         padding: 20px 20px;
     }
     #section7 h1{
@@ -860,7 +863,7 @@ html, body{
         font-size: 25px;
     }
     #sec8mtxt p{
-        font-size: 17px;
+        font-size: 15px;
     }
     #sec8blocks{
         flex-direction: column;
@@ -886,7 +889,7 @@ html, body{
     }
     #footer{
         flex-direction: column;
-        height: 120%;
+        height: 165%;
         gap: 5px;
         padding: 30px 30px;
     }
@@ -906,6 +909,7 @@ html, body{
         width: 100%;
     }
     #nlform{
+        display: flex;
         width: 70%;
     }
 }
@@ -1232,5 +1236,51 @@ html, body{
         background-color: #1A1A1A;
     }
     
+  }
+
+  @media (min-width: 992px) and (max-width: 1250px)
+  {
+    #section3 {
+        top: 100;
+        width: 100%;
+        /* height: 140%; */
+        background-color: #fafafa;
+        border-top: .3px solid rgba(0, 0, 0, 0.144);
+        padding: 110px 100px;
+    }
+    #section4 #sec4mb {
+        width: 100%;
+        /* height: 100%; */
+        position: relative;
+    }
+    #section6 {
+        top: 100;
+        width: 100%;
+        /* height: 150%; */
+        background-color: #65C0BA;
+    }
+    #sec6blocks {
+        width: 100%;
+        /* height: 80%; */
+        display: flex;
+        gap: 40px;
+        padding: 50px 10% 30px 10%;
+    }
+    .bk1 {
+        width: 35%;
+        background-color: #fff;
+        /* height: 70%; */
+    }
+    .bk1txt h2 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 600;
+        font-size: 17px;
+    }
+    .bk1txt p {
+        padding-top: 10px;
+        font-family: "Mukta Mahee", sans-serif;
+        font-size: 16px;
+        color: #000000b4;
+    }
   }
   
